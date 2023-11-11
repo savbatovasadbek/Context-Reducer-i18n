@@ -12,7 +12,7 @@ const Home = () => {
   };
   return (
     <div>
-      <div>
+      <div className="container">
         <div>
           <h1>{t(translationKey["Welcome to React"])}</h1>
         </div>
